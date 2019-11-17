@@ -822,7 +822,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1010px;
   }
 }
 
@@ -2680,27 +2680,24 @@ input[type="button"].btn-block {
 }
 
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+    font-display: block;
+    font-family: glyphicons-work;
+    src: url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.eot?v=26);
+    src: url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.eot?v=26#iefix) format('embedded-opentype'), url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.woff?v=26) format('woff'), url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.ttf?v=26) format('truetype'), url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.svg?v=26#glyphicons-work) format('svg')
 }
 
 .glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    font-family: glyphicons-work;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
-
-.glyphicon:empty {
-  width: 1em;
-}
-
+.glyphicon-add:before{content:"\2295"}
 .glyphicon-asterisk:before {
   content: "\2a";
 }
@@ -3033,12 +3030,20 @@ input[type="button"].btn-block {
   content: "\e078";
 }
 
+.glyphicon-chevron-down:before {
+    content: "\e259"
+}
+
 .glyphicon-chevron-left:before {
-  content: "\e079";
+    content: "\e257"
 }
 
 .glyphicon-chevron-right:before {
-  content: "\e080";
+    content: "\e258"
+}
+
+.glyphicon-chevron-up:before {
+    content: "\e260"
 }
 
 .glyphicon-plus-sign:before {
@@ -3155,14 +3160,6 @@ input[type="button"].btn-block {
 
 .glyphicon-magnet:before {
   content: "\e112";
-}
-
-.glyphicon-chevron-up:before {
-  content: "\e113";
-}
-
-.glyphicon-chevron-down:before {
-  content: "\e114";
 }
 
 .glyphicon-retweet:before {
