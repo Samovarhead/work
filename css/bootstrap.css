@@ -2682,8 +2682,8 @@ input[type="button"].btn-block {
 @font-face {
     font-display: block;
     font-family: glyphicons-work;
-    src: url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.eot?v=26);
-    src: url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.eot?v=26#iefix) format('embedded-opentype'), url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.woff?v=26) format('woff'), url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.ttf?v=26) format('truetype'), url(//st.work.ua/fonts/glyphicons-work/glyphicons-work1.svg?v=26#glyphicons-work) format('svg')
+    src: url(https://st.work.ua/fonts/glyphicons-work/glyphicons-work1.eot?v=26);
+    src: url(https://st.work.ua/fonts/glyphicons-work/glyphicons-work1.eot?v=26#iefix) format('embedded-opentype'), url(https://st.work.ua/fonts/glyphicons-work/glyphicons-work1.woff?v=26) format('woff'), url(https://st.work.ua/fonts/glyphicons-work/glyphicons-work1.ttf?v=26) format('truetype'), url(https://st.work.ua/fonts/glyphicons-work/glyphicons-work1.svg?v=26#glyphicons-work) format('svg')
 }
 
 .glyphicon {

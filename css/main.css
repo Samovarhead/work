@@ -137,14 +137,44 @@ section {
     section .employer-pan .balance-wrapper .balance-modal {
       position: absolute;
       width: 375px;
-      height: 337px;
       -webkit-box-shadow: 0 0 6px #abb2ba;
       box-shadow: 0 0 6px #abb2ba;
       border-radius: 5px;
       border: 1px solid #abb2ba;
       background-color: #ffffff;
       z-index: 1000;
-      display: none; }
+      display: none;
+      padding: 5px 20px 20px 20px; }
+      section .employer-pan .balance-wrapper .balance-modal:active, section .employer-pan .balance-wrapper .balance-modal:focus {
+        display: block !important; }
+      section .employer-pan .balance-wrapper .balance-modal span, section .employer-pan .balance-wrapper .balance-modal a {
+        font-size: 17px; }
+      section .employer-pan .balance-wrapper .balance-modal .balance-details li {
+        padding-top: 13px;
+        padding-bottom: 13px; }
+      section .employer-pan .balance-wrapper .balance-modal .balance-details li > span:nth-child(1) {
+        color: #2C3F52; }
+      section .employer-pan .balance-wrapper .balance-modal .balance-details .standart, section .employer-pan .balance-wrapper .balance-modal .balance-details .standart-plus, section .employer-pan .balance-wrapper .balance-modal .balance-details .premium, section .employer-pan .balance-wrapper .balance-modal .balance-details .anonimus {
+        float: right;
+        color: #6B7886; }
+        section .employer-pan .balance-wrapper .balance-modal .balance-details .standart span, section .employer-pan .balance-wrapper .balance-modal .balance-details .standart-plus span, section .employer-pan .balance-wrapper .balance-modal .balance-details .premium span, section .employer-pan .balance-wrapper .balance-modal .balance-details .anonimus span {
+          color: #6B7886; }
+      section .employer-pan .balance-wrapper .balance-modal .balance-details .duration, section .employer-pan .balance-wrapper .balance-modal .balance-details .duration-date {
+        color: #6B7886; }
+      section .employer-pan .balance-wrapper .balance-modal .balance-details li:not(:nth-child(2)) {
+        width: 100%;
+        border-bottom: 1px solid #E9EBED; }
+      section .employer-pan .balance-wrapper .balance-modal .balance-modal-nav {
+        padding-top: 5px; }
+        section .employer-pan .balance-wrapper .balance-modal .balance-modal-nav a {
+          color: #008ED5; }
+        section .employer-pan .balance-wrapper .balance-modal .balance-modal-nav li:before {
+          content: "•";
+          color: #abb2ba;
+          position: relative;
+          font-size: 24px;
+          top: 3px;
+          margin-right: 7px; }
     section .employer-pan .search-type {
       color: #0094df;
       font-size: 17px;
@@ -348,6 +378,8 @@ footer {
             margin-bottom: 0; }
           header .container .header-nav .mobile-nav li {
             display: inline-block; }
+            header .container .header-nav .mobile-nav li a:focus {
+              text-decoration: none; }
             header .container .header-nav .mobile-nav li span {
               display: block;
               text-align: center;
@@ -380,6 +412,8 @@ footer {
         position: relative; }
         section .container .balance-wrapper .balance {
           line-height: 40px; }
+        section .container .balance-wrapper .balance-modal {
+          width: 290px; }
         section .container .balance-wrapper a, section .container .balance-wrapper span, section .container .balance-wrapper .avaliable, section .container .balance-wrapper .from {
           font-size: 14px; }
       section .container .employer-pan {
